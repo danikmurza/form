@@ -1,0 +1,30 @@
+.link{
+    background:red;
+    background: linear-gradient(to right, orange , yellow,rgb(245, 112, 245));
+    font-weight: bold;
+    padding: 15px;
+    border:black;
+    border-radius:3px;
+    color:black;
+}
+.btn-light{
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border:black;
+ }
+ body{
+     background-color: rgb(230, 230, 230);
+ }
+ .name{
+     color:rgb(230, 230, 230);
+     margin-right:15px;
+     font-size:17px;
+     margin-top: 5px;
+ }
+ h2{
+     font-size: 31px;
+     text-align: center;
+     /* margin:15px;
+     margin-right:80px; */
+ }
