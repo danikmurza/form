@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c36e7c5d-2e30-481d-ac42-d4771633f5c0" name="Changes" comment="Add">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/form.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.controller.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/auth.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/google.strategy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/google.strategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/google.strategy.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/jwt-auth.guard.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/jwt-auth.guard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth/jwt-auth.guard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/exceptions/validation.exception.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/exceptions/validation.exception.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/exceptions/validation.exception.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/files/files.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/files/files.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/files/files.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/files/files.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/files/files.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/files/files.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/mail.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/mail.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/mail.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/mail.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/mail.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/mail.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mail/templates/confirmation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pipes/validation.pipe.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pipes/validation.pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pipes/validation.pipe.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/dto/create-post.dto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/dto/create-post.dto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/dto/create-post.dto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.controller.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.model.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/posts/posts.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/create-user.dto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/create-user.dto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/dto/create-user.dto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.controller.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.model.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/users/users.service.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loads/dto/create-load.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loads/load.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loads/load.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loads/load.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loads/load.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/service/product-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/service/product-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/dto/create-post.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/dto/create-post.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/posts.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/posts.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="216MYsQlKMfPuxIN9mkCV4iSyez" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="ts.external.directory.path" value="D:\work\form\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\ToDo\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start (1)">
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c36e7c5d-2e30-481d-ac42-d4771633f5c0" name="Changes" comment="" />
+      <created>1637257135066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637257135066</updated>
+      <workItem from="1637257136313" duration="355000" />
+      <workItem from="1637257528329" duration="15000" />
+      <workItem from="1637261724829" duration="565000" />
+      <workItem from="1637342349623" duration="626000" />
+      <workItem from="1638305735092" duration="3170000" />
+      <workItem from="1638310308934" duration="1365000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add">
+      <created>1637257272522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637257272522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add" />
+  </component>
+</project>

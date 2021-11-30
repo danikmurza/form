@@ -1,17 +1,8 @@
-import {
-    Body,
-    Controller,
-    Post,
-    Put,
-    UploadedFile,
-    UseInterceptors,
-    HttpCode,
-    HttpStatus,
-    Delete, UseGuards, Req
-} from '@nestjs/common';
-import {CreatePostDto, PostDto, UpdatePostDto} from "./dto/create-post.dto";
+import { Body, Controller, Post, Put,
+    HttpCode, HttpStatus, Delete, UseGuards } from '@nestjs/common';
+import {CreatePostDto, PostDto, PostUpdateDto} from "./dto/create-post.dto";
 import {PostsService} from "./posts.service";
-import {FileInterceptor} from "@nestjs/platform-express";
+
 import {JwtAuthGuard} from "../auth/jwt-auth.guard";
 @UseGuards(JwtAuthGuard)
 @Controller('posts')
@@ -19,26 +10,26 @@ export class PostsController {
 
     constructor(private postService: PostsService) {}
 
-    @Post('/todo')
+    @Post('/add')
     @HttpCode(HttpStatus.CREATED)
-    async createTodo(@Body() body: CreatePostDto) {
+    async createPost(@Body() body: CreatePostDto) {
         return await this.postService.createPost(body);
     }
     @Post('/find')
     @HttpCode(HttpStatus.OK)
-    async findTodo(@Body() body: PostDto) {
+    async findPost(@Body() body: PostDto) {
         return await this.postService.findPost(body.id);
     }
 
     @Put('/update')
     @HttpCode(HttpStatus.OK)
-    async updateTodo(@Body() body: UpdatePostDto) {
+    async updatePost(@Body() body: PostUpdateDto) {
         return await this.postService.updatePost(body);
     }
 
     @Delete('/delete')
     @HttpCode(HttpStatus.OK)
-    async deleteTodo(@Body() body: PostDto) {
+    async deletePost(@Body() body: PostDto) {
         return await this.postService.deletePost(body);
     }
 

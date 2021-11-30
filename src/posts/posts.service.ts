@@ -1,5 +1,5 @@
 import {HttpException, HttpStatus, Injectable} from '@nestjs/common';
-import {CreatePostDto, PostDto, UpdatePostDto} from "./dto/create-post.dto";
+import {CreatePostDto, PostDto, PostUpdateDto} from "./dto/create-post.dto";
 import {InjectModel} from "@nestjs/sequelize";
 import {Post} from "./posts.model";
 import {FilesService} from "../files/files.service";
@@ -25,7 +25,7 @@ export class PostsService {
         return post;
     }
 
-    async updatePost(dto: UpdatePostDto) {
+    async updatePost(dto: PostUpdateDto) {
         const post = await this.postRepository.update({...dto}, {where: {id: dto.id}})
         if(post[0]=== 0){
             throw new HttpException('Task with this number does not exist', HttpStatus.BAD_REQUEST);

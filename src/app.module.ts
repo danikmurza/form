@@ -10,6 +10,7 @@ import { FilesModule } from './files/files.module';
 import {ServeStaticModule} from "@nestjs/serve-static";
 import { MailModule } from './mail/mail.module';
 import * as path from 'path';
+import {LoadModule} from "./loads/load.module";
 
 @Module({
     controllers: [],
@@ -37,6 +38,7 @@ import * as path from 'path';
         PostsModule,
         FilesModule,
         MailModule,
+        LoadModule
     ]
 })
 export class AppModule {}

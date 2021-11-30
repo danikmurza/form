@@ -61,7 +61,7 @@ const getUser = async () => {
             'Authorization': 'Bearer ' + token
         }
     }
-    return await fetch("http://localhost:5000/auth/user", requestOptions)
+    return await fetch("http://localhost:3000/auth/user", requestOptions)
         .then(handleResponse)
         .then(products => {
                 return products
