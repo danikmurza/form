@@ -9,7 +9,7 @@ export declare class CreateLoadDto {
     startTime: string;
     endDate: string;
     endTime: string;
-    trallerStatus: string;
+    trailerStatus: string;
     equipment: string;
     loadType: string;
     driverType: string;
@@ -19,8 +19,6 @@ export declare class CreateLoadDto {
     tripLength: string;
     hoursMin: number;
     hoursMax: number;
-    book: boolean;
-    driverId: number;
 }
 export declare class LoadDto {
     id: number;
@@ -34,7 +32,7 @@ export declare class LoadDto {
     startTime: string;
     endDate: string;
     endTime: string;
-    trallerStatus: string;
+    trailerStatus: string;
     equipment: string;
     loadType: string;
     driverType: string;
@@ -44,8 +42,6 @@ export declare class LoadDto {
     tripLength: string;
     hoursMin: number;
     hoursMax: number;
-    book: boolean;
-    driverId: number;
 }
 export declare class LoadUpdateDto {
     id: number;
@@ -59,7 +55,7 @@ export declare class LoadUpdateDto {
     startTime: string;
     endDate: string;
     endTime: string;
-    trallerStatus: string;
+    trailerStatus: string;
     equipment: string;
     loadType: string;
     driverType: string;
@@ -69,9 +65,7 @@ export declare class LoadUpdateDto {
     tripLength: string;
     hoursMin: number;
     hoursMax: number;
-    book: boolean;
-    driverId: number;
 }
-export declare class DeleteDto {
+export declare class LoadDeleteDto {
     id: string;
 }

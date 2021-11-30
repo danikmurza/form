@@ -12,7 +12,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.User = void 0;
 const sequelize_typescript_1 = require("sequelize-typescript");
 const swagger_1 = require("@nestjs/swagger");
-const posts_model_1 = require("../posts/posts.model");
 let User = class User extends sequelize_typescript_1.Model {
 };
 __decorate([
@@ -42,10 +41,6 @@ __decorate([
     sequelize_typescript_1.Column({ type: sequelize_typescript_1.DataType.STRING, allowNull: true }),
     __metadata("design:type", String)
 ], User.prototype, "lastName", void 0);
-__decorate([
-    sequelize_typescript_1.HasMany(() => posts_model_1.Post),
-    __metadata("design:type", Array)
-], User.prototype, "posts", void 0);
 User = __decorate([
     sequelize_typescript_1.Table({ tableName: 'users' })
 ], User);

@@ -22,7 +22,7 @@ export class CreateLoadDto {
 
     endTime: string;
 
-    trallerStatus: string;
+    trailerStatus: string;
 
     equipment: string;
 
@@ -42,9 +42,6 @@ export class CreateLoadDto {
 
     hoursMax: number;
 
-    book: boolean;
-
-    driverId: number;
 }
 
 export class LoadDto {
@@ -72,7 +69,7 @@ export class LoadDto {
 
     endTime: string;
 
-    trallerStatus: string;
+    trailerStatus: string;
 
     equipment: string;
 
@@ -91,9 +88,8 @@ export class LoadDto {
     hoursMin: number;
 
     hoursMax: number;
-    book: boolean;
 
-    driverId: number;
+
 }
 
 export class LoadUpdateDto {
@@ -121,7 +117,7 @@ export class LoadUpdateDto {
 
     endTime: string;
 
-    trallerStatus: string;
+    trailerStatus: string;
 
     equipment: string;
 
@@ -141,12 +137,9 @@ export class LoadUpdateDto {
 
     hoursMax: number;
 
-    book: boolean;
-
-    driverId: number;
 }
 
-export class DeleteDto {
+export class LoadDeleteDto {
 
     id: string;
 }

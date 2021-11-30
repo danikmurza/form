@@ -1,1 +1,1 @@
-{"version":3,"file":"create-load.dto.js","sourceRoot":"","sources":["../../../src/loads/dto/create-load.dto.ts"],"names":[],"mappings":";;;AAEA,MAAa,aAAa;CA6CzB;AA7CD,sCA6CC;AAED,MAAa,OAAO;CA+CnB;AA/CD,0BA+CC;AAED,MAAa,aAAa;CAgDzB;AAhDD,sCAgDC;AAED,MAAa,SAAS;CAGrB;AAHD,8BAGC"}
+{"version":3,"file":"create-load.dto.js","sourceRoot":"","sources":["../../../src/loads/dto/create-load.dto.ts"],"names":[],"mappings":";;;AAEA,MAAa,aAAa;CA0CzB;AA1CD,sCA0CC;AAED,MAAa,OAAO;CA8CnB;AA9CD,0BA8CC;AAED,MAAa,aAAa;CA6CzB;AA7CD,sCA6CC;AAED,MAAa,aAAa;CAGzB;AAHD,sCAGC"}

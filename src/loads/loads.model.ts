@@ -1,8 +1,7 @@
-import {BelongsTo, BelongsToMany, Column, DataType, ForeignKey, Model, Table} from "sequelize-typescript";
+import { Column, DataType, Model, Table } from "sequelize-typescript";
 import {ApiProperty} from "@nestjs/swagger";
-import {User} from "../users/users.model";
 
-interface PostCreationAttrs {
+interface LoadCreationAttrs {
 
     workType: string;
 
@@ -24,7 +23,7 @@ interface PostCreationAttrs {
 
     endTime: string;
 
-    trallerStatus: string;
+    trailerStatus: string;
 
     equipment: string;
 
@@ -45,8 +44,9 @@ interface PostCreationAttrs {
     hoursMax: number;
 }
 
-@Table({tableName: 'posts'})
-export class Post extends Model<Post, PostCreationAttrs> {
+@Table({tableName: 'loads'})
+export class Load extends Model<Load, LoadCreationAttrs> {
+
     @ApiProperty({example: '1', description: 'Уникальный идентификатор'})
     @Column({type: DataType.INTEGER, unique: true, autoIncrement: true, primaryKey: true})
     id: number;
@@ -82,7 +82,7 @@ export class Post extends Model<Post, PostCreationAttrs> {
     endTime: string;
 
     @Column({type: DataType.STRING, allowNull: true})
-    trallerStatus: string;
+    trailerStatus: string;
 
     @Column({type: DataType.STRING, allowNull: true})
     equipment: string;
@@ -111,11 +111,10 @@ export class Post extends Model<Post, PostCreationAttrs> {
     @Column({type: DataType.INTEGER, allowNull: true})
     hoursMax: number;
 
-    @ForeignKey(() => User)
-    @Column({type: DataType.INTEGER})
+
+    @Column({type: DataType.BOOLEAN, defaultValue: false})
+    booking: boolean;
+
+    @Column({type: DataType.INTEGER, defaultValue: 0})
     userId: number;
-
-    @BelongsTo(() => User)
-    author: User
-
 }

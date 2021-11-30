@@ -4,13 +4,12 @@ import { UsersModule } from './users/users.module';
 import {ConfigModule} from "@nestjs/config";
 import {User} from "./users/users.model";
 import { AuthModule } from './auth/auth.module';
-import { PostsModule } from './posts/posts.module';
-import {Post} from "./posts/posts.model";
+import { LoadsModule } from './loads/loads.module';
+import {Load} from "./loads/loads.model";
 import { FilesModule } from './files/files.module';
 import {ServeStaticModule} from "@nestjs/serve-static";
 import { MailModule } from './mail/mail.module';
 import * as path from 'path';
-import {LoadModule} from "./loads/load.module";
 
 @Module({
     controllers: [],
@@ -30,15 +29,14 @@ import {LoadModule} from "./loads/load.module";
             username: process.env.POSTGRES_USER,
             password: process.env.POSTGRESS_PASSWORD,
             database: process.env.POSTGRES_DB,
-            models: [User, Post],
+            models: [User, Load],
             autoLoadModels: true
         }),
         UsersModule,
         AuthModule,
-        PostsModule,
+        LoadsModule,
         FilesModule,
-        MailModule,
-        LoadModule
+        MailModule
     ]
 })
 export class AppModule {}

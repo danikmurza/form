@@ -1,6 +1,6 @@
-import {Column, DataType, HasMany, Model, Table} from "sequelize-typescript";
+import {Column, DataType, Model, Table} from "sequelize-typescript";
 import {ApiProperty} from "@nestjs/swagger";
-import {Post} from "../posts/posts.model";
+
 
 interface UserCreationAttrs {
     email: string;
@@ -28,7 +28,7 @@ export class User extends Model<User, UserCreationAttrs> {
 
     @Column({type: DataType.STRING, allowNull: true})
     lastName: string;
-
-    @HasMany(() => Post)
-    posts: Post[];
+    //
+    // @HasMany(() => Post)
+    // posts: Post[];
 }

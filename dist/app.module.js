@@ -13,13 +13,12 @@ const users_module_1 = require("./users/users.module");
 const config_1 = require("@nestjs/config");
 const users_model_1 = require("./users/users.model");
 const auth_module_1 = require("./auth/auth.module");
-const posts_module_1 = require("./posts/posts.module");
-const posts_model_1 = require("./posts/posts.model");
+const loads_module_1 = require("./loads/loads.module");
+const loads_model_1 = require("./loads/loads.model");
 const files_module_1 = require("./files/files.module");
 const serve_static_1 = require("@nestjs/serve-static");
 const mail_module_1 = require("./mail/mail.module");
 const path = require("path");
-const load_module_1 = require("./loads/load.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -40,15 +39,14 @@ AppModule = __decorate([
                 username: process.env.POSTGRES_USER,
                 password: process.env.POSTGRESS_PASSWORD,
                 database: process.env.POSTGRES_DB,
-                models: [users_model_1.User, posts_model_1.Post],
+                models: [users_model_1.User, loads_model_1.Load],
                 autoLoadModels: true
             }),
             users_module_1.UsersModule,
             auth_module_1.AuthModule,
-            posts_module_1.PostsModule,
+            loads_module_1.LoadsModule,
             files_module_1.FilesModule,
-            mail_module_1.MailModule,
-            load_module_1.LoadModule
+            mail_module_1.MailModule
         ]
     })
 ], AppModule);
