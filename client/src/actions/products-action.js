@@ -21,11 +21,11 @@ const Error = (error) => {
 
 
 
-export const fetchTodo = (body, method, url) => {
+export const fetchLoad = (body, method, url) => {
   return async dispatch => {
     dispatch(requested())
 
-    productService.product(body, method, url)
+    productService.load(body, method, url)
         .then(user => {dispatch(loaded(user))},
             error => {dispatch(Error(error))}
 
@@ -52,6 +52,17 @@ export const  product = () => {
       .then(user => {dispatch(loaded(user))},
         error => {dispatch(Error(error))}
       )
+  }
+}
+
+export const  getAllLoads = () => {
+  return dispatch => {
+    dispatch(requested())
+
+    productService.getAllLoads()
+        .then(user => {dispatch(loaded(user))},
+            error => {dispatch(Error(error))}
+        )
   }
 }
 

@@ -2,11 +2,11 @@ import React from "react";
 import { connect } from "react-redux";
 import Spinner from "../spinner";
 import ErrorIndicator from "../error-indicator";
-import { product } from "../../actions";
+import {getAllLoads } from "../../actions";
 import { Row, Col, Form, FormGroup, Input, Label } from "reactstrap";
 import { Button, Modal, Tab, Tabs } from "react-bootstrap";
 import Task from "./task";
-import { fetchTodo } from "../../actions";
+import { fetchLoad } from "../../actions";
 import "./style.css";
 
 class TodoList extends React.Component {
@@ -23,7 +23,7 @@ class TodoList extends React.Component {
   };
 
   componentDidMount() {
-    this.props.dispatch(product());
+    this.props.dispatch(getAllLoads());
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
@@ -36,14 +36,14 @@ class TodoList extends React.Component {
     const { priority, date } = this.state;
     if (priority.length === 0 && date.length === 0) return;
     else {
-      this.props.dispatch(fetchTodo(this.state, "PUT", "update"));
+      this.props.dispatch(fetchLoad(this.state, "PUT", "update"));
       await this.setState({ show: false });
     }
   };
 
   deleteTodo = (e) => {
     e.preventDefault();
-    this.props.dispatch(fetchTodo({ id: +e.target.id }, "DELETE", "delete"));
+    this.props.dispatch(fetchLoad({ id: +e.target.id }, "DELETE", "delete"));
   };
 
   handleClickActiveTab() {
@@ -73,14 +73,14 @@ class TodoList extends React.Component {
   handleOnDone = (e) => {
     e.preventDefault();
     this.props.dispatch(
-      fetchTodo({ id: +e.target.id, done: true }, "PUT", "update")
+        fetchLoad({ id: +e.target.id, done: true }, "PUT", "update")
     );
   };
 
   handleOnUndone = (e) => {
     e.preventDefault();
     this.props.dispatch(
-      fetchTodo({ id: +e.target.id, done: false }, "PUT", "update")
+        fetchLoad({ id: +e.target.id, done: false }, "PUT", "update")
     );
   };
 
@@ -98,6 +98,8 @@ class TodoList extends React.Component {
     if (error) {
       return <ErrorIndicator />;
     }
+
+    console.log(this.props.products)
 
     return (
       <>

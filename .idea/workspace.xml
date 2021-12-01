@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36e7c5d-2e30-481d-ac42-d4771633f5c0" name="Changes" comment="form">
-      <change afterPath="$PROJECT_DIR$/src/loads/loads.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ee025ca-aa64-4357-8f3c-f72b8c48f265.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ee025ca-aa64-4357-8f3c-f72b8c48f265.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ee025ca-aa64-4357-8f3c-f72b8c48f265/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ee025ca-aa64-4357-8f3c-f72b8c48f265/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="c36e7c5d-2e30-481d-ac42-d4771633f5c0" name="Changes" comment="fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/loads/dto/create-load.dto.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loads/dto/create-load.dto.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/loads/dto/create-load.dto.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loads/dto/create-load.dto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/loads/dto/create-load.dto.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loads/dto/create-load.dto.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.controller.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.controller.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.model.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.model.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.model.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.model.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/users/users.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loads/dto/create-load.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/loads/dto/create-load.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loads/load.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loads/load.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loads/load.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loads/load.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/dto/create-post.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/posts.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/loads/loads.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/posts.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/loads/loads.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/posts.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/loads/loads.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/posts.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/products-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/products-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/create-todo-task.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/create-todo-task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/todo-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/service/product-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/service/product-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +42,7 @@
       <recent name="D:\work\ToDo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Backend">
+  <component name="RunManager" selected="npm.Front">
     <configuration name="Backend" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -99,8 +69,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.Backend" />
         <item itemvalue="npm.Front" />
+        <item itemvalue="npm.Backend" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +87,7 @@
       <workItem from="1637261724829" duration="565000" />
       <workItem from="1637342349623" duration="626000" />
       <workItem from="1638305735092" duration="3170000" />
-      <workItem from="1638310308934" duration="5474000" />
+      <workItem from="1638310308934" duration="6545000" />
     </task>
     <task id="LOCAL-00001" summary="Add">
       <created>1637257272522</created>
@@ -133,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638311927930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed">
+      <created>1638315860606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638315860606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add" />
     <MESSAGE value="form" />
-    <option name="LAST_COMMIT_MESSAGE" value="form" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>

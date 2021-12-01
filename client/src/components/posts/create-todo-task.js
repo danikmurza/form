@@ -1,5 +1,5 @@
 import React from "react";
-import { fetchTodo } from "../../actions";
+import { fetchLoad } from "../../actions";
 import { connect } from "react-redux";
 import Spinner from "../spinner";
 import ErrorIndicator from "../error-indicator";
@@ -18,7 +18,7 @@ class CreateTodoTask extends React.Component {
     createTodo = (e) => {
         e.preventDefault();
         const { dispatch } = this.props;
-        dispatch(fetchTodo(this.state, "POST", "todo"));
+        dispatch(fetchLoad(this.state, "POST", "todo"));
         this.props.history.push("/");
     };
 

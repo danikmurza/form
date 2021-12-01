@@ -14,7 +14,7 @@ function handleResponse(response) {
     )
 }
 
-const product = async (body, method, url) => {
+const load = async (body, method, url) => {
     const token = await JSON.parse(localStorage.getItem('token'))
     const requestOptions = {
         method: method,
@@ -25,7 +25,7 @@ const product = async (body, method, url) => {
         body: JSON.stringify(body)
     }
 
-    return await fetch(`${_base}/posts/${url}`, requestOptions)
+    return await fetch(`${_base}/loads/${url}`, requestOptions)
         .then(handleResponse)
         .then(products => {
                 return products
@@ -61,7 +61,24 @@ const getUser = async () => {
             'Authorization': 'Bearer ' + token
         }
     }
-    return await fetch("http://localhost:3000/auth/user", requestOptions)
+    return await fetch("http://localhost:5000/auth/user", requestOptions)
+        .then(handleResponse)
+        .then(products => {
+                return products
+            }
+        )
+}
+
+const getAllLoads = async () => {
+    const token = await JSON.parse(localStorage.getItem('token'))
+    const requestOptions = {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + token
+        }
+    }
+    return await fetch("http://localhost:5000/loads", requestOptions)
         .then(handleResponse)
         .then(products => {
                 return products
@@ -70,7 +87,8 @@ const getUser = async () => {
 }
 
 export const productService = {
-    product,
+    load,
     getUser,
-    avatar
+    avatar,
+    getAllLoads
 }
