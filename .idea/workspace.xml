@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36e7c5d-2e30-481d-ac42-d4771633f5c0" name="Changes" comment="fixed">
+    <list default="true" id="c36e7c5d-2e30-481d-ac42-d4771633f5c0" name="Changes" comment="loads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/products-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/products-action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/posts/create-todo-task.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/create-todo-task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/posts/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/todo-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/service/product-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/service/product-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
-    <property name="ts.external.directory.path" value="D:\work\form\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,7 +83,8 @@
       <workItem from="1637261724829" duration="565000" />
       <workItem from="1637342349623" duration="626000" />
       <workItem from="1638305735092" duration="3170000" />
-      <workItem from="1638310308934" duration="6545000" />
+      <workItem from="1638310308934" duration="6669000" />
+      <workItem from="1638318640621" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="Add">
       <created>1637257272522</created>
@@ -110,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638315860606</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="loads">
+      <created>1638316982047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638316982047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +136,7 @@
     <MESSAGE value="Add" />
     <MESSAGE value="form" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="loads" />
+    <option name="LAST_COMMIT_MESSAGE" value="loads" />
   </component>
 </project>
